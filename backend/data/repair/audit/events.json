@@ -1,0 +1,102 @@
+[
+  {
+    "id": "AUD-DA5F33B9",
+    "repair_id": "REP-FECD7606",
+    "action": "PROPOSE",
+    "actor": "developer",
+    "from_status": "none",
+    "to_status": "proposed",
+    "timestamp": "2026-10-09T19:37:22.360505+00:00",
+    "details": {
+      "generator_type": "deterministic_rule_engine",
+      "risk_level": "low",
+      "target": "calc.py"
+    }
+  },
+  {
+    "id": "AUD-2DD876BC",
+    "repair_id": "REP-FECD7606",
+    "action": "APPROVE",
+    "actor": "developer",
+    "from_status": "proposed",
+    "to_status": "approved",
+    "timestamp": "2026-10-09T19:37:22.366947+00:00",
+    "details": {
+      "reason": "Verified fix fixes addition operator"
+    }
+  },
+  {
+    "id": "AUD-70070A54",
+    "repair_id": "REP-FECD7606",
+    "action": "APPLY",
+    "actor": "developer",
+    "from_status": "approved",
+    "to_status": "applied",
+    "timestamp": "2026-10-09T19:37:22.370962+00:00",
+    "details": {
+      "new_sha256": "1c3752902e3c25dbf44409955d96315a96a8e102f18177505969713da587e2d6"
+    }
+  },
+  {
+    "id": "AUD-DB58CAF4",
+    "repair_id": "REP-FECD7606",
+    "action": "ROLLBACK",
+    "actor": "developer",
+    "from_status": "applied",
+    "to_status": "rolled_back",
+    "timestamp": "2026-10-09T19:37:22.374006+00:00",
+    "details": {
+      "message": "Successfully rolled back 'calc.py' to pre-repair state."
+    }
+  },
+  {
+    "id": "AUD-0D032D0D",
+    "repair_id": "REP-124CEEC9",
+    "action": "PROPOSE",
+    "actor": "developer",
+    "from_status": "none",
+    "to_status": "proposed",
+    "timestamp": "2026-10-09T19:37:40.943499+00:00",
+    "details": {
+      "generator_type": "deterministic_rule_engine",
+      "risk_level": "low",
+      "target": "calc.py"
+    }
+  },
+  {
+    "id": "AUD-74446A3B",
+    "repair_id": "REP-124CEEC9",
+    "action": "APPROVE",
+    "actor": "developer",
+    "from_status": "proposed",
+    "to_status": "approved",
+    "timestamp": "2026-10-09T19:37:40.949006+00:00",
+    "details": {
+      "reason": "Verified fix fixes addition operator"
+    }
+  },
+  {
+    "id": "AUD-C8603132",
+    "repair_id": "REP-124CEEC9",
+    "action": "APPLY",
+    "actor": "developer",
+    "from_status": "approved",
+    "to_status": "applied",
+    "timestamp": "2026-10-09T19:37:40.955513+00:00",
+    "details": {
+      "new_sha256": "1c3752902e3c25dbf44409955d96315a96a8e102f18177505969713da587e2d6"
+    }
+  },
+  {
+    "id": "AUD-955EE53B",
+    "repair_id": "REP-124CEEC9",
+    "action": "ROLLBACK",
+    "actor": "developer",
+    "from_status": "applied",
+    "to_status": "rolled_back",
+    "timestamp": "2026-10-09T19:37:40.960520+00:00",
+    "details": {
+      "message": "Successfully rolled back 'calc.py' to pre-repair state."
+    }
+  }
+]

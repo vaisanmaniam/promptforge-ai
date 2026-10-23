@@ -1,0 +1,27 @@
+{
+  "analysis_id": "ANL-3B4C0681",
+  "project_id": "prj-4066747ed0e8",
+  "changed_files": [
+    {
+      "file_path": "calculator.py",
+      "change_type": "modified",
+      "changed_symbols": [
+        "def:add"
+      ],
+      "is_test": false
+    }
+  ],
+  "changed_symbols": [
+    "def:add"
+  ],
+  "directly_affected_requirements": [],
+  "downstream_affected_requirements": [],
+  "max_blast_radius_depth": 0,
+  "affected_tests_candidate_count": 0,
+  "evidence_disclosures": [
+    "Git unified diff metadata not provided; analyzing explicit changed file list.",
+    "No Phase 4 traceability links found for project; requirement impact inferred from heuristics.",
+    "Requirement specification not loaded; downstream blast radius graph traversal skipped."
+  ],
+  "created_at": "2026-10-09T19:05:28.924683+00:00"
+}

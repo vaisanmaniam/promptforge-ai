@@ -1,0 +1,175 @@
+{
+  "id": "spec-9d66abcd6e99",
+  "title": "Api Development: A Rate-Limited Rest Api In Fastapi Using...",
+  "source_prompt": "Build a rate-limited REST API in FastAPI using Python 3.11 with Redis caching, JWT authentication, and O(1) cache lookups. Include strict Pydantic payload validation and error responses.",
+  "task_category": "api_development",
+  "category_breakdown": {
+    "functional": 3,
+    "nonfunctional": 1,
+    "technical_constraint": 2,
+    "security": 1
+  },
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "title": "Core Objective Implementation (Api Development)",
+      "description": "Implement primary capability specified in prompt: 'Build a rate-limited REST API in FastAPI using Python 3'. Must satisfy all requested operations and behavioral contracts.",
+      "category": "functional",
+      "priority": "critical",
+      "status": "explicit",
+      "source_text": "Indicator: Build",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-001",
+          "description": "Primary functional capability 'Build a rate-limited REST API in FastAPI using Python 3' executes successfully under standard inputs.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        },
+        {
+          "id": "AC-002",
+          "description": "Invalid or boundary inputs produce explicit, documented error responses without unhandled crashes.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-002",
+      "title": "Data Contract & I/O Schema Validation",
+      "description": "Accepts and validates input schema: Indicator: payload. Returns expected output format: No indicators matching expected_outputs patterns.",
+      "category": "functional",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "Indicator: payload No indicators matching expected_outputs patterns",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-003",
+          "description": "All incoming payloads are strictly validated against the target schema and rejected if malformed.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [
+        "REQ-001"
+      ],
+      "refines": []
+    },
+    {
+      "id": "REQ-003",
+      "title": "Cache State & Eviction Policy",
+      "description": "Implement predictable cache lifecycle, eviction algorithm, and TTL expiration.",
+      "category": "functional",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "Detected pattern '\\b(cache|evict|expiry|ttl|lru|lfu)\\b' in prompt",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-004",
+          "description": "Functional verification test demonstrates cache state & eviction policy under simulated workload.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [
+        "REQ-001"
+      ],
+      "refines": []
+    },
+    {
+      "id": "REQ-004",
+      "title": "Technology Stack: Matched indicators: FastAPI, Python, Redis",
+      "description": "Implementation must utilize the specified tech stack: Matched indicators: FastAPI, Python, Redis.",
+      "category": "technical_constraint",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "Matched indicators: FastAPI, Python, Redis",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-005",
+          "description": "Code compiles and runs on the declared target runtime without missing import errors.",
+          "verification_type": "static_analysis",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-005",
+      "title": "Computational Complexity & Resource Bounds",
+      "description": "Algorithm must satisfy strict computational and space constraints: No indicators matching constraints patterns.",
+      "category": "technical_constraint",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "No indicators matching constraints patterns",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-006",
+          "description": "Benchmark execution confirms operations satisfy specified complexity limits.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-006",
+      "title": "Latency & Execution Performance",
+      "description": "System must execute operations with bounded latency and minimal overhead under normal operational load.",
+      "category": "nonfunctional",
+      "priority": "medium",
+      "status": "explicit",
+      "source_text": "Performance keywords detected in prompt",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-007",
+          "description": "Performance regression tests confirm 95th percentile latency remains within acceptable thresholds.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-007",
+      "title": "Security: Identity, Authentication & Cryptographic Protection",
+      "description": "Enforce secure credential handling, token verification, and cryptographic controls: Matched indicators: JWT, authentication.",
+      "category": "security",
+      "priority": "critical",
+      "status": "explicit",
+      "source_text": "Matched indicators: JWT, authentication",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-008",
+          "description": "Unauthenticated requests or tampered tokens are rejected with 401 Unauthorized / appropriate error code.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    }
+  ],
+  "assumptions": [],
+  "created_at": "2026-10-10T06:46:39.896145Z",
+  "updated_at": "2026-10-10T06:46:39.896145Z",
+  "version": 1
+}

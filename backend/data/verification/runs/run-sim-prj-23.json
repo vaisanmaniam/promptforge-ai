@@ -1,0 +1,20 @@
+{
+  "id": "run-sim-prj-23",
+  "project_id": "prj-2364f7255daf",
+  "specification_id": null,
+  "status": "failed",
+  "total_tests": 1,
+  "passed_tests": 0,
+  "failed_tests": 1,
+  "skipped_tests": 0,
+  "duration_ms": 45.0,
+  "stdout": "\n=================================== FAILURES ===================================\n________________________________ test_subtract _________________________________\n    def test_subtract():\n>       assert subtract(5, 3) == 2\nE       assert 8 == 2\nE        +  where 8 = subtract(5, 3)\ntests/test_calc.py:3: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_calc.py::test_subtract - assert 8 == 2\n============================== 1 failed in 0.05s ===============================\n",
+  "stderr": "",
+  "exit_code": null,
+  "static_analysis_passed": true,
+  "static_findings": [],
+  "requirement_verdicts": {},
+  "docker_available": false,
+  "created_at": "",
+  "completed_at": null
+}

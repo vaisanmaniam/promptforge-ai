@@ -1,0 +1,91 @@
+{
+  "id": "run-661f9647c8ec",
+  "project_id": "prj-0a42be06775e",
+  "specification_id": "spec-9d66abcd6e99",
+  "status": "timed_out",
+  "total_tests": 0,
+  "passed_tests": 0,
+  "failed_tests": 0,
+  "skipped_tests": 0,
+  "duration_ms": 15049.27,
+  "stdout": "",
+  "stderr": "Unable to find image 'python:3.11-slim' locally\n3.11-slim: Pulling from library/python\necc510c1e359: Pulling fs layer\n0f752a1982d6: Pulling fs layer\n759a7f30c318: Pulling fs layer\n496c1a902b3a: Pulling fs layer\n496c1a902b3a: Waiting\n0f752a1982d6: Verifying Checksum\n0f752a1982d6: Download complete\n496c1a902b3a: Verifying Checksum\n496c1a902b3a: Download complete\n",
+  "exit_code": -1,
+  "static_analysis_passed": true,
+  "static_findings": [],
+  "requirement_verdicts": {
+    "REQ-001": {
+      "requirement_id": "REQ-001",
+      "requirement_title": "Core Objective Implementation (Api Development)",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-002": {
+      "requirement_id": "REQ-002",
+      "requirement_title": "Data Contract & I/O Schema Validation",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-003": {
+      "requirement_id": "REQ-003",
+      "requirement_title": "Cache State & Eviction Policy",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-004": {
+      "requirement_id": "REQ-004",
+      "requirement_title": "Technology Stack: Matched indicators: FastAPI, Python, Redis",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-005": {
+      "requirement_id": "REQ-005",
+      "requirement_title": "Computational Complexity & Resource Bounds",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-006": {
+      "requirement_id": "REQ-006",
+      "requirement_title": "Latency & Execution Performance",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-007": {
+      "requirement_id": "REQ-007",
+      "requirement_title": "Security: Identity, Authentication & Cryptographic Protection",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    }
+  },
+  "docker_available": true,
+  "created_at": "2026-10-10T07:21:45.508042Z",
+  "completed_at": "2026-10-10T07:22:01.669927Z"
+}

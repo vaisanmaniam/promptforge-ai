@@ -1,0 +1,59 @@
+{
+  "project_id": "prj-bdf82adb4c24",
+  "name": "Off-By-One Boundary Defect",
+  "total_files": 3,
+  "total_size_bytes": 206,
+  "detected_manifests": [
+    "requirements.txt"
+  ],
+  "detected_test_frameworks": [
+    "pytest (Python)"
+  ],
+  "available_test_commands": [
+    "pytest -v"
+  ],
+  "ingested_artifacts": [
+    {
+      "id": "ART-001",
+      "project_id": "prj-bdf82adb4c24",
+      "relative_path": "validator.py",
+      "file_type": "source_file",
+      "language": "python",
+      "sha256": "941cc042a57ea91edd9db5df59e0ddea650c809c04087c5e05017dda79df80f4",
+      "size_bytes": 78,
+      "line_count": 3,
+      "symbols": [
+        "def:check_age"
+      ],
+      "created_at": "2026-10-10T06:45:28.187747Z"
+    },
+    {
+      "id": "ART-002",
+      "project_id": "prj-bdf82adb4c24",
+      "relative_path": "tests/test_validator.py",
+      "file_type": "test_file",
+      "language": "python",
+      "sha256": "c47982b1deb627ca53dd96e9fbcd1354a4adcffa8e0f5ea663714d3f7b1ba29d",
+      "size_bytes": 114,
+      "line_count": 5,
+      "symbols": [
+        "def:test_boundary_age"
+      ],
+      "created_at": "2026-10-10T06:45:28.192660Z"
+    },
+    {
+      "id": "ART-003",
+      "project_id": "prj-bdf82adb4c24",
+      "relative_path": "requirements.txt",
+      "file_type": "manifest",
+      "language": "text",
+      "sha256": "35da9587ddcdf2f12064f3acbf4ea353246673441e3dc5f4f0af92968ed2248a",
+      "size_bytes": 14,
+      "line_count": 1,
+      "symbols": [],
+      "created_at": "2026-10-10T06:45:28.195686Z"
+    }
+  ],
+  "warnings": [],
+  "ingested_at": "2026-10-10T06:45:28.196206Z"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "run-725ce32fb47e",
+  "project_id": "prj-d79ef3a2b3b6",
+  "specification_id": "spec-987e13c690b0",
+  "status": "unavailable",
+  "total_tests": 0,
+  "passed_tests": 0,
+  "failed_tests": 0,
+  "skipped_tests": 0,
+  "duration_ms": 0.0,
+  "stdout": "",
+  "stderr": "Execution blocked: Docker daemon is stopped or unreachable. Start Docker Desktop/engine. (Host fallback prohibited).",
+  "exit_code": null,
+  "static_analysis_passed": true,
+  "static_findings": [],
+  "requirement_verdicts": {
+    "REQ-001": {
+      "requirement_id": "REQ-001",
+      "requirement_title": "Core Objective Implementation (Code Generation)",
+      "verdict": "unverified",
+      "linked_code_count": 1,
+      "linked_test_count": 1,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "Verification run unavailable: Docker sandbox is offline. Cannot execute tests."
+    },
+    "REQ-002": {
+      "requirement_id": "REQ-002",
+      "requirement_title": "Data Contract & I/O Schema Validation",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-003": {
+      "requirement_id": "REQ-003",
+      "requirement_title": "Cache State & Eviction Policy",
+      "verdict": "unverified",
+      "linked_code_count": 1,
+      "linked_test_count": 1,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "Verification run unavailable: Docker sandbox is offline. Cannot execute tests."
+    },
+    "REQ-004": {
+      "requirement_id": "REQ-004",
+      "requirement_title": "Technology Stack: Indicator: Python",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-005": {
+      "requirement_id": "REQ-005",
+      "requirement_title": "Computational Complexity & Resource Bounds",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-006": {
+      "requirement_id": "REQ-006",
+      "requirement_title": "Baseline Operational Reliability & Error Bounding",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-007": {
+      "requirement_id": "REQ-007",
+      "requirement_title": "Security: Identity, Authentication & Cryptographic Protection",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    }
+  },
+  "docker_available": false,
+  "created_at": "2026-10-09T19:05:35.658818Z",
+  "completed_at": "2026-10-09T19:05:36.286356Z"
+}

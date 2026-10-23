@@ -1,0 +1,81 @@
+{
+  "id": "run-c38be08a58e2",
+  "project_id": "prj-4066747ed0e8",
+  "specification_id": "spec-b5411defa500",
+  "status": "unavailable",
+  "total_tests": 0,
+  "passed_tests": 0,
+  "failed_tests": 0,
+  "skipped_tests": 0,
+  "duration_ms": 0.0,
+  "stdout": "",
+  "stderr": "Execution blocked: Docker daemon is stopped or unreachable. Start Docker Desktop/engine. (Host fallback prohibited).",
+  "exit_code": null,
+  "static_analysis_passed": true,
+  "static_findings": [],
+  "requirement_verdicts": {
+    "REQ-001": {
+      "requirement_id": "REQ-001",
+      "requirement_title": "Core Objective Implementation (Api Development)",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-002": {
+      "requirement_id": "REQ-002",
+      "requirement_title": "Data Contract & I/O Schema Validation",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-003": {
+      "requirement_id": "REQ-003",
+      "requirement_title": "Technology Stack: Indicator: Python",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-004": {
+      "requirement_id": "REQ-004",
+      "requirement_title": "Computational Complexity & Resource Bounds",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-005": {
+      "requirement_id": "REQ-005",
+      "requirement_title": "Baseline Operational Reliability & Error Bounding",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    },
+    "REQ-006": {
+      "requirement_id": "REQ-006",
+      "requirement_title": "Security: Identity, Authentication & Cryptographic Protection",
+      "verdict": "unverified",
+      "linked_code_count": 0,
+      "linked_test_count": 0,
+      "passed_tests": [],
+      "failed_tests": [],
+      "rationale": "No test artifact has been linked to this requirement."
+    }
+  },
+  "docker_available": false,
+  "created_at": "2026-10-09T20:24:54.093738Z",
+  "completed_at": "2026-10-09T20:24:54.811752Z"
+}

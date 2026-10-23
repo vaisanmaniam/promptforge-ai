@@ -1,0 +1,31 @@
+{
+  "failure_id": "FAIL-TEST-001-4595",
+  "run_id": "run-sim-prj-a7",
+  "project_id": "prj-a74b4d7895e7",
+  "test_id": "tests/test_calc.py::test_subtract",
+  "category": "assertion_failure",
+  "classification": "code_defect",
+  "traceback_excerpt": "_test_subtract_\ndef test_subtract():\n>       assert subtract(5, 3) == 2\nE       assert 8 == 2\nE        +  where 8 = subtract(5, 3)\ntests/test_calc.py:3: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_calc.py::test_subtract - assert 8 == 2\n============================== 1 failed in 0.05s ===============================",
+  "suspected_file": "tests/test_calc.py",
+  "suspected_line": 3,
+  "related_requirement_ids": [],
+  "hypotheses": [
+    {
+      "rank": 1,
+      "description": "Implementation returned unexpected value: subtract(5, 3) == 2",
+      "confidence": 0.88,
+      "evidence_basis": "Pytest assertion failure in tests/test_calc.py::test_subtract: 'subtract(5, 3) == 2'",
+      "suspected_file": "tests/test_calc.py",
+      "suspected_line": 3
+    },
+    {
+      "rank": 2,
+      "description": "Test expectation may be incorrect or asserting outdated requirement contract.",
+      "confidence": 0.35,
+      "evidence_basis": "Secondary hypothesis considering possible test defect.",
+      "suspected_file": "tests/test_calc.py",
+      "suspected_line": 3
+    }
+  ],
+  "created_at": "2026-10-09T19:35:40.034175+00:00"
+}

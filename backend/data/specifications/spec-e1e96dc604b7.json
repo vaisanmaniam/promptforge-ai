@@ -1,0 +1,198 @@
+{
+  "id": "spec-e1e96dc604b7",
+  "title": "LRU Cache Spec",
+  "source_prompt": "Implement an LRU cache in Python with O(1) eviction and capacity limit.",
+  "task_category": "code_generation",
+  "category_breakdown": {
+    "functional": 3,
+    "nonfunctional": 1,
+    "technical_constraint": 2,
+    "security": 1
+  },
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "title": "Core Objective Implementation (Code Generation)",
+      "description": "Implement primary capability specified in prompt: 'Implement an LRU cache in Python with O(1) eviction and capacity limit'. Must satisfy all requested operations and behavioral contracts.",
+      "category": "functional",
+      "priority": "critical",
+      "status": "explicit",
+      "source_text": "Indicator: Implement",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-001",
+          "description": "Primary functional capability 'Implement an LRU cache in Python with O(1) eviction and capacity limit' executes successfully under standard inputs.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        },
+        {
+          "id": "AC-002",
+          "description": "Invalid or boundary inputs produce explicit, documented error responses without unhandled crashes.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-002",
+      "title": "Data Contract & I/O Schema Validation",
+      "description": "Accepts and validates input schema: No indicators matching inputs patterns. Returns expected output format: No indicators matching expected_outputs patterns.",
+      "category": "functional",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "No indicators matching inputs patterns No indicators matching expected_outputs patterns",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-003",
+          "description": "All incoming payloads are strictly validated against the target schema and rejected if malformed.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [
+        "REQ-001"
+      ],
+      "refines": []
+    },
+    {
+      "id": "REQ-003",
+      "title": "Cache State & Eviction Policy",
+      "description": "Implement predictable cache lifecycle, eviction algorithm, and TTL expiration.",
+      "category": "functional",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "Detected pattern '\\b(cache|evict|expiry|ttl|lru|lfu)\\b' in prompt",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-004",
+          "description": "Functional verification test demonstrates cache state & eviction policy under simulated workload.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [
+        "REQ-001"
+      ],
+      "refines": []
+    },
+    {
+      "id": "REQ-004",
+      "title": "Technology Stack: Indicator: Python",
+      "description": "Implementation must utilize the specified tech stack: Indicator: Python.",
+      "category": "technical_constraint",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "Indicator: Python",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-005",
+          "description": "Code compiles and runs on the declared target runtime without missing import errors.",
+          "verification_type": "static_analysis",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-005",
+      "title": "Computational Complexity & Resource Bounds",
+      "description": "Algorithm must satisfy strict computational and space constraints: No indicators matching constraints patterns.",
+      "category": "technical_constraint",
+      "priority": "high",
+      "status": "explicit",
+      "source_text": "No indicators matching constraints patterns",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-006",
+          "description": "Benchmark execution confirms operations satisfy specified complexity limits.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-006",
+      "title": "Baseline Operational Reliability & Error Bounding",
+      "description": "Standard error bounding and graceful degradation under abnormal operational conditions.",
+      "category": "nonfunctional",
+      "priority": "low",
+      "status": "inferred",
+      "source_text": "Baseline software engineering reliability requirement",
+      "assumptions": [
+        {
+          "id": "ASM-002",
+          "text": "Standard operational response time (< 500ms for I/O, < 50ms for in-memory) assumed as nonfunctional baseline.",
+          "source_component": "nonfunctional_inference",
+          "status": "unresolved",
+          "impact": "low"
+        }
+      ],
+      "acceptance_criteria": [
+        {
+          "id": "AC-007",
+          "description": "Unhandlable internal exceptions are captured and wrapped with structured domain error types.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    },
+    {
+      "id": "REQ-007",
+      "title": "Security: Identity, Authentication & Cryptographic Protection",
+      "description": "Enforce secure credential handling, token verification, and cryptographic controls: No indicators matching security_requirements patterns.",
+      "category": "security",
+      "priority": "critical",
+      "status": "explicit",
+      "source_text": "No indicators matching security_requirements patterns",
+      "assumptions": [],
+      "acceptance_criteria": [
+        {
+          "id": "AC-008",
+          "description": "Unauthenticated requests or tampered tokens are rejected with 401 Unauthorized / appropriate error code.",
+          "verification_type": "unit_test",
+          "status": "pending"
+        }
+      ],
+      "verification_state": "unverified",
+      "depends_on": [],
+      "refines": []
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "ASM-001",
+      "text": "Input Validation: Assumed strict parameter validation.",
+      "source_component": "prompt_optimization",
+      "status": "unresolved",
+      "impact": "medium"
+    },
+    {
+      "id": "ASM-002",
+      "text": "Standard operational response time (< 500ms for I/O, < 50ms for in-memory) assumed as nonfunctional baseline.",
+      "source_component": "nonfunctional_inference",
+      "status": "unresolved",
+      "impact": "low"
+    }
+  ],
+  "created_at": "2026-10-09T18:38:33.521299Z",
+  "updated_at": "2026-10-09T18:38:33.521299Z",
+  "version": 1
+}

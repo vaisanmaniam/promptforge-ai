@@ -1,0 +1,45 @@
+{
+  "project_id": "prj-7f662df63d26",
+  "name": "Math Bug Project",
+  "total_files": 2,
+  "total_size_bytes": 115,
+  "detected_manifests": [],
+  "detected_test_frameworks": [
+    "pytest (Python)"
+  ],
+  "available_test_commands": [
+    "pytest -v"
+  ],
+  "ingested_artifacts": [
+    {
+      "id": "ART-001",
+      "project_id": "prj-7f662df63d26",
+      "relative_path": "calc.py",
+      "file_type": "source_file",
+      "language": "python",
+      "sha256": "78b8b342977c53c6d91082b433a3443988f48099eca0e05efe151cc0b8f62861",
+      "size_bytes": 37,
+      "line_count": 2,
+      "symbols": [
+        "def:subtract"
+      ],
+      "created_at": "2026-10-09T19:31:25.814575Z"
+    },
+    {
+      "id": "ART-002",
+      "project_id": "prj-7f662df63d26",
+      "relative_path": "tests/test_calc.py",
+      "file_type": "test_file",
+      "language": "python",
+      "sha256": "79ef0c4df962ce3fa7f00c03e1ed3d91e72b7da392fdf9e9e2b888085aeab6fd",
+      "size_bytes": 78,
+      "line_count": 3,
+      "symbols": [
+        "def:test_subtract"
+      ],
+      "created_at": "2026-10-09T19:31:25.815125Z"
+    }
+  ],
+  "warnings": [],
+  "ingested_at": "2026-10-09T19:31:25.815125Z"
+}

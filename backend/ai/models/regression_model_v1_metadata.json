@@ -1,0 +1,45 @@
+{
+  "name": "PredictiveRegressionModel",
+  "version": "v1.0.0",
+  "algorithm": "RandomForestClassifier",
+  "trained_at": "2026-10-09T20:38:59.598541+00:00",
+  "sample_count": 40,
+  "train_sample_count": 32,
+  "test_sample_count": 8,
+  "features": [
+    "change_file_count",
+    "is_direct_test_change",
+    "symbol_overlap_count",
+    "requirement_priority_weight",
+    "dependency_distance",
+    "blast_radius_depth",
+    "is_confirmed_link",
+    "historical_failure_rate",
+    "has_historical_data",
+    "historical_duration_normalized"
+  ],
+  "provenance_breakdown": {
+    "synthetic_pipeline_test": 40
+  },
+  "has_synthetic_data": true,
+  "dataset_summary": {
+    "total_samples": 40,
+    "positive_count": 20,
+    "negative_count": 20,
+    "positive_ratio": 0.5,
+    "unique_changes": 10,
+    "unique_projects": 1,
+    "provenance_counts": {
+      "synthetic_pipeline_test": 40
+    },
+    "has_synthetic": true,
+    "status": "valid"
+  },
+  "evaluation_metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "pr_auc": 1.0,
+    "top_3_fault_recall": 0.75
+  }
+}

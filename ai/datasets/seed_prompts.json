@@ -1,0 +1,4415 @@
+[
+  {
+    "example_id": "PFE-0001",
+    "prompt": "Implement a thread-safe LRU cache in Python using a doubly linked list and a hash map. Include get(key) and put(key, value) operations with O(1) time complexity. Add a capacity parameter and raise KeyError when an item is not found.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 60.0,
+      "specificity": 95.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 82.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_lru_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0002",
+    "prompt": "Write a TypeScript function that merges two sorted arrays of numbers into a single sorted array without using the built-in sort() method. Handle empty arrays and duplicates properly.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 50.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 75.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_merge_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0003",
+    "prompt": "Create a Go function to calculate the SHA-256 checksum of large files concurrently using worker pools. Ensure memory usage does not exceed 64MB regardless of file size.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 55.0,
+      "specificity": 80.0,
+      "constraints": 90.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 74.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sha256_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0004",
+    "prompt": "Write a Python script to parse a custom CSV file with semicolon delimiters, convert timestamps to UTC ISO-8601 strings, and serialize the cleaned data into JSON.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 50.0,
+      "specificity": 75.0,
+      "constraints": 60.0,
+      "output_definition": 80.0,
+      "completeness": 65.0,
+      "overall_score": 68.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_csv_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0005",
+    "prompt": "Write code for a binary search tree in Java. Implement insert, delete, and search methods.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_generic_types",
+      "unspecified_duplicate_handling"
+    ],
+    "reference_quality": {
+      "clarity": 70.0,
+      "context": 30.0,
+      "specificity": 60.0,
+      "constraints": 40.0,
+      "output_definition": 50.0,
+      "completeness": 50.0,
+      "overall_score": 51.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_bst_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0006",
+    "prompt": "Build a simple web scraper in Python using BeautifulSoup that extracts article titles and URLs from a news blog and saves them into a text file.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "vague_news_blog_target",
+      "missing_rate_limiting"
+    ],
+    "reference_quality": {
+      "clarity": 75.0,
+      "context": 40.0,
+      "specificity": 65.0,
+      "constraints": 45.0,
+      "output_definition": 65.0,
+      "completeness": 55.0,
+      "overall_score": 58.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_scraper_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0007",
+    "prompt": "Write a Rust function to solve the Two Sum problem returning the indices of the two numbers that add up to target. Return an Option<(usize, usize)>.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 45.0,
+      "specificity": 90.0,
+      "constraints": 70.0,
+      "output_definition": 90.0,
+      "completeness": 70.0,
+      "overall_score": 75.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_twosum_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0008",
+    "prompt": "Create an algorithm that generates Fibonacci numbers up to n.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "inputs"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_language",
+      "unspecified_output_format",
+      "unspecified_space_complexity"
+    ],
+    "reference_quality": {
+      "clarity": 50.0,
+      "context": 20.0,
+      "specificity": 30.0,
+      "constraints": 20.0,
+      "output_definition": 30.0,
+      "completeness": 30.0,
+      "overall_score": 30.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_fib_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0009",
+    "prompt": "Write a C++ class for Matrix multiplication supporting 2D matrices with operator overloading for *. Throw std::invalid_argument if inner dimensions do not match.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 50.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 75.0,
+      "completeness": 70.0,
+      "overall_score": 74.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_mat_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0010",
+    "prompt": "Implement Dijkstra's shortest path algorithm in Python using heapq. Return the minimum distance dictionary from source vertex to all reachable vertices.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 50.0,
+      "specificity": 85.0,
+      "constraints": 70.0,
+      "output_definition": 85.0,
+      "completeness": 70.0,
+      "overall_score": 74.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_dijkstra_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0011",
+    "prompt": "Write a Kotlin extension function on String that validates whether the string is a valid E.164 international phone number format using regex.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 55.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 70.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_phone_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0012",
+    "prompt": "Create a C# utility method that compresses a byte array using GZipStream and returns the compressed byte array with an option to set compression level.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 50.0,
+      "specificity": 80.0,
+      "constraints": 70.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 72.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_gzip_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0013",
+    "prompt": "Write a JavaScript function that debounces any given callback with a specified delay in milliseconds, supporting immediate execution on leading edge.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 50.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 74.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_debounce_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0014",
+    "prompt": "Generate a Python script that calculates rolling 30-day volatility of closing stock prices from a pandas DataFrame containing Date and Close columns.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 55.0,
+      "specificity": 80.0,
+      "constraints": 70.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 73.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_volatility_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0015",
+    "prompt": "Make a program that converts files from one format to another format fast.",
+    "task_category": "code_generation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_file_formats",
+      "unspecified_language",
+      "vague_fast_performance_claim"
+    ],
+    "reference_quality": {
+      "clarity": 30.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 15.0,
+      "overall_score": 14.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_convert_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0016",
+    "prompt": "I get a RecursionError: maximum recursion depth exceeded in my Python depth-first search function when traversing a cyclic graph. How do I fix it using a visited set?",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_code_snippet"
+    ],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 75.0,
+      "specificity": 75.0,
+      "constraints": 60.0,
+      "output_definition": 60.0,
+      "completeness": 65.0,
+      "overall_score": 69.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_rec_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0017",
+    "prompt": "Fix this JavaScript TypeError: Cannot read properties of undefined (reading 'map') in React component when fetching user lists from an API before the promise resolves.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 80.0,
+      "constraints": 60.0,
+      "output_definition": 65.0,
+      "completeness": 70.0,
+      "overall_score": 74.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_react_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0018",
+    "prompt": "My Go program panics with 'fatal error: concurrent map writes' when multiple goroutines update a shared statistics map. Refactor it to use sync.RWMutex or sync.Map safely.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 75.0,
+      "overall_score": 81.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_go_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0019",
+    "prompt": "Find and fix the memory leak in this C++ code where raw pointers are allocated inside a loop without delete. Replace raw pointers with std::unique_ptr.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_code_body"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 80.0,
+      "constraints": 75.0,
+      "output_definition": 65.0,
+      "completeness": 70.0,
+      "overall_score": 75.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_cpp_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0020",
+    "prompt": "Why is my Django query triggering N+1 database queries on UserProfile.objects.all()? Show how to use select_related or prefetch_related to optimize it.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 85.0,
+      "constraints": 70.0,
+      "output_definition": 70.0,
+      "completeness": 75.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_django_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0021",
+    "prompt": "My code crashed with an error. Please fix it.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_error_trace",
+      "missing_code",
+      "unspecified_technology"
+    ],
+    "reference_quality": {
+      "clarity": 20.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 10.0,
+      "overall_score": 12.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_crash_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0022",
+    "prompt": "Debug this SQL dead-lock in MySQL InnoDB: Transaction 1 holds exclusive lock on table A and requests table B while Transaction 2 holds B and requests A. Suggest remediation.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 85.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 81.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_mysql_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0023",
+    "prompt": "I am getting CORS policy error: 'No Access-Control-Allow-Origin header is present on the requested resource' when calling FastAPI from React. How do I configure CORSMiddleware?",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 70.0,
+      "output_definition": 75.0,
+      "completeness": 80.0,
+      "overall_score": 82.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_cors_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0024",
+    "prompt": "Fix NullPointerException in Spring Boot UserController at line 42 when user.getAddress().getCity() is called on newly registered users without addresses.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 85.0,
+      "constraints": 65.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_spring_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0025",
+    "prompt": "Why is my Node.js microservice taking 100% CPU on JSON.parse() of 50MB files? How do I stream and parse large JSON objects without blocking event loop?",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 80.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_debug_node_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0026",
+    "prompt": "Resolve git rebase conflict in file auth.py on branch feature-oauth where both HEAD and incoming commit modified hash_password function.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_conflict_markers"
+    ],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 75.0,
+      "specificity": 75.0,
+      "constraints": 65.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 73.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_debug_git_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0027",
+    "prompt": "Troubleshoot PyTorch RuntimeError: CUDA out of memory on batch size 64 during training. How should I implement gradient accumulation and mixed precision?",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 85.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_debug_cuda_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0028",
+    "prompt": "Help, my app is broken and not working properly since yesterday.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_problem",
+      "missing_logs",
+      "missing_technology"
+    ],
+    "reference_quality": {
+      "clarity": 20.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 10.0,
+      "overall_score": 12.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_debug_broken_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0029",
+    "prompt": "Fix this infinite loop in while loop when reading lines from a socket in Python where client terminates connection without sending EOF.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 80.0,
+      "constraints": 75.0,
+      "output_definition": 70.0,
+      "completeness": 75.0,
+      "overall_score": 78.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_debug_socket_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0030",
+    "prompt": "Identify why this Bash script fails with 'syntax error near unexpected token fi' on line 28 after adding an elif clause.",
+    "task_category": "debugging",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 75.0,
+      "specificity": 75.0,
+      "constraints": 60.0,
+      "output_definition": 65.0,
+      "completeness": 65.0,
+      "overall_score": 71.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_debug_bash_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0031",
+    "prompt": "Review this Python user authentication snippet for security vulnerabilities like SQL injection, timing attacks on password comparison, and missing rate limits.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_code_body"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 77.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_auth_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0032",
+    "prompt": "Conduct a performance code review on this React component to identify unnecessary re-renders, missing useMemo/useCallback hooks, and prop drilling anti-patterns.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_react_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0033",
+    "prompt": "Check this code and tell me if it is good.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_review_criteria",
+      "missing_code",
+      "vague_good_definition"
+    ],
+    "reference_quality": {
+      "clarity": 20.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 10.0,
+      "overall_score": 12.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_vague_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0034",
+    "prompt": "Review this Java pull request for compliance with SOLID design principles, proper exception handling, and clean architecture separation between service and repository layers.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_solid_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0035",
+    "prompt": "Perform a static security audit on this Solidity smart contract looking for reentrancy bugs, integer overflows, and front-running vulnerabilities.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_sol_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0036",
+    "prompt": "Audit this Go microservice code for proper context propagation, goroutine leaks, and graceful shutdown signal handling.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_go_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0037",
+    "prompt": "Evaluate this C# code against DRY and KISS principles, suggesting refactorings for duplicated validation logic.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 60.0,
+      "specificity": 75.0,
+      "constraints": 75.0,
+      "output_definition": 65.0,
+      "completeness": 65.0,
+      "overall_score": 71.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_csharp_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0038",
+    "prompt": "Review this Python data science notebook for code reproducibility, hardcoded file paths, and memory efficiency when loading 10GB DataFrames.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 85.0,
+      "constraints": 85.0,
+      "output_definition": 70.0,
+      "completeness": 75.0,
+      "overall_score": 80.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_notebook_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0039",
+    "prompt": "Review this Rust library crate against API guidelines (C-COMMON-TRAITS, naming conventions, and error handling with thiserror).",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 82.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_rust_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0040",
+    "prompt": "Inspect this JavaScript script for potential memory leaks related to uncleared setInterval timers and unremoved DOM event listeners.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 65.0,
+      "specificity": 80.0,
+      "constraints": 80.0,
+      "output_definition": 65.0,
+      "completeness": 65.0,
+      "overall_score": 73.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_review_js_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0041",
+    "prompt": "Review this Dockerfile for security best practices: running as non-root user, multi-stage build size optimization, and pinning package versions.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "security_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_review_docker_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0042",
+    "prompt": "Analyze this pull request for accessibility (a11y) issues according to WCAG 2.1 AA standards in HTML markup and ARIA attributes.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 85.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_review_a11y_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0043",
+    "prompt": "Give feedback on my code style and formatting.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_style_guide",
+      "missing_code",
+      "unspecified_language"
+    ],
+    "reference_quality": {
+      "clarity": 30.0,
+      "context": 15.0,
+      "specificity": 15.0,
+      "constraints": 15.0,
+      "output_definition": 15.0,
+      "completeness": 15.0,
+      "overall_score": 18.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_review_style_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0044",
+    "prompt": "Review this FastAPI dependency injection setup for circular dependency risks and proper async session teardown in SQLAlchemy 2.0.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_review_di_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0045",
+    "prompt": "Review this SQL migration file for dangerous operations like adding non-null columns without defaults on large tables in production PostgreSQL.",
+    "task_category": "code_review",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_review_mig_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0046",
+    "prompt": "Develop a REST API endpoint in FastAPI: POST /api/v1/auth/register. Accept JSON with email, password (min 8 chars, 1 uppercase, 1 digit), and full_name. Hash password using bcrypt. Return 201 Created with user_id and email, or 400 Bad Request on duplicate email.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 70.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 95.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_reg_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0047",
+    "prompt": "Create an Express.js endpoint GET /products with cursor-based pagination. Accept query params limit (default 20, max 100) and cursor. Return JSON with items array and next_cursor token.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 65.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 90.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_page_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0048",
+    "prompt": "Build an API for a shopping cart.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_framework",
+      "unspecified_endpoints",
+      "missing_auth_spec"
+    ],
+    "reference_quality": {
+      "clarity": 40.0,
+      "context": 15.0,
+      "specificity": 20.0,
+      "constraints": 15.0,
+      "output_definition": 20.0,
+      "completeness": 20.0,
+      "overall_score": 22.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_cart_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0049",
+    "prompt": "Design a Spring Boot REST controller for updating user profiles: PUT /api/v1/users/{id}. Validate email format and phone number. Return 200 OK with updated record, or 404 Not Found.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 65.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 75.0,
+      "overall_score": 81.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_put_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0050",
+    "prompt": "Implement a GraphQL mutation in Apollo Server (Node.js) for creating comments: createComment(postId: ID!, text: String!). Return the new Comment with author details. Ensure authentication is verified.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 85.0,
+      "completeness": 75.0,
+      "overall_score": 80.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_gql_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0051",
+    "prompt": "Write a Django REST Framework viewset for managing customer orders with filters by status and date range. Enforce IsAuthenticated permission class.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 60.0,
+      "specificity": 80.0,
+      "constraints": 75.0,
+      "output_definition": 70.0,
+      "completeness": 70.0,
+      "overall_score": 73.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_drf_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0052",
+    "prompt": "Implement an API endpoint for file uploads in FastAPI: POST /upload. Accept multipart/form-data files under 10MB, restrict to PDF and PNG, and save to local uploads directory with a UUID filename.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 70.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 90.0,
+      "completeness": 85.0,
+      "overall_score": 88.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_upload_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0053",
+    "prompt": "Create an API that allows users to reset their password via email token.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_backend_language",
+      "unspecified_token_expiry"
+    ],
+    "reference_quality": {
+      "clarity": 65.0,
+      "context": 35.0,
+      "specificity": 50.0,
+      "constraints": 50.0,
+      "output_definition": 50.0,
+      "completeness": 45.0,
+      "overall_score": 50.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_reset_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0054",
+    "prompt": "Build a Go Gin endpoint DELETE /api/v1/items/:id that verifies ownership via JWT claims before deleting the item from database. Return 204 No Content.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 70.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 90.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_gin_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0055",
+    "prompt": "Create a webhook endpoint in NestJS: POST /webhooks/stripe to handle payment_intent.succeeded events. Verify the Stripe webhook signature header using raw request body.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "expected_outputs",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 75.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_api_stripe_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0056",
+    "prompt": "Implement an API rate limiting middleware in FastAPI using Redis token bucket algorithm allowing 100 requests per minute per IP address.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 90.0,
+      "output_definition": 75.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_api_rate_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0057",
+    "prompt": "Develop an endpoint in Flask: GET /api/health returning server status, system uptime, and database connection state as JSON.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 60.0,
+      "specificity": 85.0,
+      "constraints": 70.0,
+      "output_definition": 85.0,
+      "completeness": 70.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_api_health_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0058",
+    "prompt": "Create a login endpoint with security.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "vague_security_claim",
+      "unspecified_framework",
+      "missing_token_strategy"
+    ],
+    "reference_quality": {
+      "clarity": 35.0,
+      "context": 15.0,
+      "specificity": 20.0,
+      "constraints": 25.0,
+      "output_definition": 20.0,
+      "completeness": 20.0,
+      "overall_score": 23.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_api_login_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0059",
+    "prompt": "Write a gRPC service definition in protobuf and implement the server in Go for a UserStatusService with UpdateStatus and StreamStatus methods.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 65.0,
+      "specificity": 85.0,
+      "constraints": 70.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_api_grpc_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0060",
+    "prompt": "Build a FastAPI WebSocket endpoint /ws/chat/{room_id} supporting connection management, broadcasting messages to active room participants, and handling client disconnects.",
+    "task_category": "api_development",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_api_ws_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0061",
+    "prompt": "Write a PostgreSQL query to find the top 5 customers with the highest total order amount in 2024. Table orders has columns customer_id, order_date, total_amount, status. Exclude orders where status is 'cancelled'.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 90.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 90.0,
+      "completeness": 85.0,
+      "overall_score": 91.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_top5_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0062",
+    "prompt": "Generate a MySQL query using window functions (DENSE_RANK) to rank employees by salary within each department. Table employees has id, name, department_id, salary.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 75.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_rank_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0063",
+    "prompt": "Write a query to find all users who haven't logged in recently.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_recently_threshold",
+      "missing_table_schema",
+      "unspecified_sql_dialect"
+    ],
+    "reference_quality": {
+      "clarity": 40.0,
+      "context": 15.0,
+      "specificity": 20.0,
+      "constraints": 15.0,
+      "output_definition": 20.0,
+      "completeness": 20.0,
+      "overall_score": 22.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_recent_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0064",
+    "prompt": "Construct a recursive Common Table Expression (CTE) in PostgreSQL to traverse an organizational hierarchy table employees(emp_id, manager_id, name) and calculate the management depth of each employee.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 75.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_cte_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0065",
+    "prompt": "Write an SQL query to calculate Month-over-Month (MoM) revenue growth percentage in BigQuery from table transactions(transaction_id, date, amount).",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_mom_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0066",
+    "prompt": "Write a query to delete duplicate email records from table users(id, email, created_at), keeping only the record with the lowest id.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "inputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "target_technology",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_sql_dialect"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 80.0,
+      "constraints": 80.0,
+      "output_definition": 70.0,
+      "completeness": 75.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_dup_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0067",
+    "prompt": "Create a PostgreSQL DDL script for a multi-tenant SaaS schema: organizations and users tables with UUID primary keys, foreign key constraints, created_at timestamps, and unique index on (organization_id, email).",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 75.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 90.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_ddl_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0068",
+    "prompt": "Write a SQL pivot query in Snowflake to transform quarterly sales data from rows (product_id, quarter, revenue) into columns (product_id, Q1, Q2, Q3, Q4).",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 75.0,
+      "output_definition": 90.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_pivot_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0069",
+    "prompt": "Write an SQL query to find second highest salary from employees table.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "inputs",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_sql_dialect",
+      "missing_tie_handling_spec"
+    ],
+    "reference_quality": {
+      "clarity": 70.0,
+      "context": 40.0,
+      "specificity": 50.0,
+      "constraints": 40.0,
+      "output_definition": 60.0,
+      "completeness": 50.0,
+      "overall_score": 53.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_salary_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0070",
+    "prompt": "Generate an SQLite query to perform a full-text search using FTS5 virtual table articles_fts for keywords 'machine learning' matching title and body.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 75.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_sql_fts_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0071",
+    "prompt": "Write a PostgreSQL query using JSONB operators to extract customer emails where metadata->'preferences'->>'newsletter' equals 'true'.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 86.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_sql_jsonb_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0072",
+    "prompt": "Generate a T-SQL stored procedure in SQL Server that accepts @StartDate and @EndDate and returns summarized daily transactions with error handling using TRY...CATCH.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 80.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_sql_tsql_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0073",
+    "prompt": "Give me a query for my database.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_intent",
+      "missing_schema",
+      "unspecified_database"
+    ],
+    "reference_quality": {
+      "clarity": 15.0,
+      "context": 5.0,
+      "specificity": 5.0,
+      "constraints": 5.0,
+      "output_definition": 5.0,
+      "completeness": 5.0,
+      "overall_score": 7.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_sql_empty_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0074",
+    "prompt": "Write an SQL query to calculate running total of daily signups over the past 30 days using SUM() OVER (ORDER BY signup_date).",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "target_technology",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_sql_dialect"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 80.0,
+      "constraints": 70.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 76.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_sql_running_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0075",
+    "prompt": "Write an EXPLAIN ANALYZE optimization plan for a slow SELECT query on PostgreSQL joining orders and line_items without an index on line_items.order_id.",
+    "task_category": "sql_generation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 85.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_sql_explain_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0076",
+    "prompt": "Write unit tests using pytest for a Python function calculate_discount(price: float, discount_percent: float, is_vip: bool). Test normal cases, VIP extra 5% reduction, negative prices, and discount > 100% raising ValueError.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 75.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 90.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_pytest_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0077",
+    "prompt": "Generate Jest unit tests for a React custom hook useDebounceValue(value, delay). Verify that value updates are delayed by specified milliseconds using jest.useFakeTimers().",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_jest_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0078",
+    "prompt": "Write some unit tests for my code.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_code_to_test",
+      "unspecified_framework",
+      "unspecified_test_type"
+    ],
+    "reference_quality": {
+      "clarity": 30.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 15.0,
+      "completeness": 15.0,
+      "overall_score": 16.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_vague_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0079",
+    "prompt": "Create integration tests in Spring Boot using @SpringBootTest and MockMvc to verify GET /api/v1/orders returns 200 OK and valid JSON array with mocked database repository.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_spring_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0080",
+    "prompt": "Generate property-based tests in Python using Hypothesis for an email validation regex function to ensure it never crashes on arbitrary unicode strings.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "expected_outputs",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 70.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_hypo_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0081",
+    "prompt": "Write Go unit tests with table-driven testing approach for a string slugify function. Include test cases for spaces, special characters, uppercase, and unicode accents.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 70.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_table_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0082",
+    "prompt": "Create end-to-end Playwright tests in TypeScript for an e-commerce checkout flow: add item to cart, proceed to checkout, enter shipping info, and assert order confirmation text.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "acceptance_criteria",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_play_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0083",
+    "prompt": "Write benchmark tests in Go using testing.B to measure throughput and memory allocations of json.Unmarshal vs easyjson for 10KB payloads.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "expected_outputs",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_bench_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0084",
+    "prompt": "Generate unit tests in Rust using #[test] and assert_eq! macro for a Stack data structure verifying push, pop, peek, and underflow error handling.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 65.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_rust_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0085",
+    "prompt": "Write tests mocking an HTTP API call in Python using unittest.mock.patch to verify that a WeatherClient handles connection timeout exceptions cleanly.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_test_mock_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0086",
+    "prompt": "Generate C# xUnit test cases with [Theory] and [InlineData] for an integer division method including division by zero throwing DivideByZeroException.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "expected_outputs",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 70.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 83.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_test_xunit_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0087",
+    "prompt": "Write a security fuzz test script using Atheris in Python for a JSON parser function to discover unexpected crashes on invalid byte sequences.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "security_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 75.0,
+      "completeness": 75.0,
+      "overall_score": 80.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_test_fuzz_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0088",
+    "prompt": "Test my login page thoroughly.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_test_framework",
+      "missing_credentials_spec",
+      "vague_thoroughly_qualifier"
+    ],
+    "reference_quality": {
+      "clarity": 35.0,
+      "context": 15.0,
+      "specificity": 15.0,
+      "constraints": 15.0,
+      "output_definition": 15.0,
+      "completeness": 15.0,
+      "overall_score": 19.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_test_login_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0089",
+    "prompt": "Write contract tests using Pact in Java for a CustomerServiceClient consumer validating interactions with the provider API schema.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 75.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_test_pact_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0090",
+    "prompt": "Create test suites verifying that the authentication token expires after 15 minutes and returns HTTP 401 Unauthorized upon expiration.",
+    "task_category": "test_generation",
+    "components_present": [
+      "objective",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_framework"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 60.0,
+      "specificity": 75.0,
+      "constraints": 85.0,
+      "output_definition": 85.0,
+      "completeness": 75.0,
+      "overall_score": 77.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_test_expiry_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0091",
+    "prompt": "Write comprehensive Markdown documentation for a REST API endpoint POST /api/v1/payments. Include request headers, body JSON schema with field descriptions, response codes (200, 400, 401, 500), and a curl example.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "context",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "target_technology",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 80.0,
+      "specificity": 95.0,
+      "constraints": 80.0,
+      "output_definition": 95.0,
+      "completeness": 85.0,
+      "overall_score": 90.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_api_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0092",
+    "prompt": "Generate Google-style docstrings in Python for this class DatabaseConnectionManager including Args, Returns, Raises, and an Example code block.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 70.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 82.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_py_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0093",
+    "prompt": "Document this code please.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_code",
+      "unspecified_doc_style",
+      "unspecified_target_audience"
+    ],
+    "reference_quality": {
+      "clarity": 30.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 10.0,
+      "overall_score": 14.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_vague_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0094",
+    "prompt": "Write a project README.md for an open-source React UI library. Include sections for Installation via npm, Quickstart code snippet, Available Props table, Contributing guidelines, and MIT License.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 90.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_readme_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0095",
+    "prompt": "Draft an Architecture Decision Record (ADR-004) documenting the migration from monolith to microservices using event-driven architecture with Apache Kafka. Include Context, Decision, and Consequences.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 86.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_adr_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0096",
+    "prompt": "Write clear JSDoc annotations for a TypeScript utility function formatDateToISO with param tags, return type, and description of handling null values.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 65.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 78.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_jsdoc_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0097",
+    "prompt": "Create user documentation and troubleshooting guide for setting up local PostgreSQL database connection using Docker Compose.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_troubleshooting_scenarios"
+    ],
+    "reference_quality": {
+      "clarity": 75.0,
+      "context": 60.0,
+      "specificity": 75.0,
+      "constraints": 65.0,
+      "output_definition": 70.0,
+      "completeness": 65.0,
+      "overall_score": 69.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_guide_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0098",
+    "prompt": "Write a CHANGELOG.md entry following the Keep a Changelog standard for version 2.1.0 including Added, Changed, Deprecated, and Fixed sections.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "constraints",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_actual_feature_list"
+    ],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 65.0,
+      "specificity": 85.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 70.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_change_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0099",
+    "prompt": "Generate OpenAPI 3.0 YAML specification for an existing endpoint GET /users/{id} returning User schema with id, email, and created_at fields.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 90.0,
+      "completeness": 80.0,
+      "overall_score": 85.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_oas_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0100",
+    "prompt": "Write a developer onboarding guide detailing repository clone, git branch naming conventions, pre-commit hooks setup, and PR review workflow.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 80.0,
+      "constraints": 75.0,
+      "output_definition": 75.0,
+      "completeness": 70.0,
+      "overall_score": 77.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_doc_onboard_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0101",
+    "prompt": "Document our database schema and tables.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "missing_schema_definition",
+      "unspecified_output_format"
+    ],
+    "reference_quality": {
+      "clarity": 35.0,
+      "context": 15.0,
+      "specificity": 15.0,
+      "constraints": 10.0,
+      "output_definition": 15.0,
+      "completeness": 15.0,
+      "overall_score": 18.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_doc_dbschema_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0102",
+    "prompt": "Create Rust doc comments (///) with # Examples and doctests for a binary search function so cargo test executes the doc test.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_doc_rustdoc_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0103",
+    "prompt": "Draft a post-mortem incident report for a 2-hour production outage caused by an unindexed database query. Include Root Cause, Impact, Remediation, and Action Items.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "context",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 85.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_doc_postmortem_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0104",
+    "prompt": "Write a release notes document for version 3.0.0 highlighting breaking changes to the authentication API and migration steps for developers.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "context",
+      "functional_requirements"
+    ],
+    "missing_information": [
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 80.0,
+      "context": 70.0,
+      "specificity": 75.0,
+      "constraints": 70.0,
+      "output_definition": 75.0,
+      "completeness": 70.0,
+      "overall_score": 74.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_doc_relnotes_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0105",
+    "prompt": "Write Markdown guide explaining semantic versioning (SemVer) rules (MAJOR.MINOR.PATCH) for team software engineers.",
+    "task_category": "documentation",
+    "components_present": [
+      "objective",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 60.0,
+      "specificity": 80.0,
+      "constraints": 75.0,
+      "output_definition": 75.0,
+      "completeness": 70.0,
+      "overall_score": 75.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_doc_semver_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0106",
+    "prompt": "Create a multi-stage Dockerfile for a production FastAPI application using Python 3.11-slim. Include non-root user creation, install dependencies with --no-cache-dir, and expose port 8000.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 80.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 85.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_docker_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0107",
+    "prompt": "Write a GitHub Actions CI workflow (.github/workflows/ci.yml) that triggers on pull requests to main, runs pytest tests with coverage, and uploads coverage artifacts.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 80.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_gha_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0108",
+    "prompt": "Deploy my application to the cloud with CI/CD.",
+    "task_category": "devops",
+    "components_present": [
+      "objective"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_cloud_provider",
+      "unspecified_ci_platform",
+      "unspecified_application_stack"
+    ],
+    "reference_quality": {
+      "clarity": 30.0,
+      "context": 10.0,
+      "specificity": 10.0,
+      "constraints": 10.0,
+      "output_definition": 10.0,
+      "completeness": 10.0,
+      "overall_score": 14.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_vague_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0109",
+    "prompt": "Write Kubernetes deployment and service manifests for a stateless Node.js API with 3 replicas, resource limits (250m CPU, 512Mi RAM), readinessProbe on /health, and rolling update strategy.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 80.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 90.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_k8s_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0110",
+    "prompt": "Create a Terraform configuration to provision an AWS S3 bucket with versioning enabled, server-side AES256 encryption, and public access blocked.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 95.0,
+      "context": 80.0,
+      "specificity": 95.0,
+      "constraints": 90.0,
+      "output_definition": 85.0,
+      "completeness": 85.0,
+      "overall_score": 89.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_tf_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0111",
+    "prompt": "Write an Nginx configuration reverse proxying requests to upstream server http://127.0.0.1:8000, enforcing SSL redirection and adding HSTS security headers.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 90.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_nginx_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0112",
+    "prompt": "Write a bash script for daily automated backups of a PostgreSQL database using pg_dump, gzipping the archive, and deleting backup files older than 14 days.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_backup_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0113",
+    "prompt": "Configure Prometheus alerting rules in YAML for HighErrorRate (HTTP 5xx rate > 5% over 5m) and HighMemoryUsage (> 85% for 10m).",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 80.0,
+      "specificity": 90.0,
+      "constraints": 90.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 86.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_prom_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0114",
+    "prompt": "Write a GitLab CI configuration (.gitlab-ci.yml) with build, test, and deploy stages executing in alpine docker runners.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "testing_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "security_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_gitlab_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0115",
+    "prompt": "Create an Ansible playbook to install, configure, and start the systemd service for Redis on Ubuntu 22.04 LTS servers.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "train",
+      "is_synthetic": false,
+      "group_id": "grp_devops_ansible_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0116",
+    "prompt": "Write a Helm chart values.yaml template for deploying a web app with ingress enabled and TLS certificate annotations.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 80.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 80.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_devops_helm_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0117",
+    "prompt": "Create an AWS CloudFormation YAML template to deploy a VPC with 2 public subnets and an Internet Gateway.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "expected_outputs"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "constraints",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 85.0,
+      "context": 70.0,
+      "specificity": 85.0,
+      "constraints": 75.0,
+      "output_definition": 80.0,
+      "completeness": 75.0,
+      "overall_score": 79.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "val",
+      "is_synthetic": false,
+      "group_id": "grp_devops_cf_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0118",
+    "prompt": "Set up a Kubernetes cluster securely.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "security_requirements"
+    ],
+    "missing_information": [
+      "context",
+      "target_technology",
+      "inputs",
+      "expected_outputs",
+      "functional_requirements",
+      "constraints",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [
+      "unspecified_environment",
+      "vague_securely_claim",
+      "missing_node_specs"
+    ],
+    "reference_quality": {
+      "clarity": 35.0,
+      "context": 15.0,
+      "specificity": 20.0,
+      "constraints": 25.0,
+      "output_definition": 20.0,
+      "completeness": 20.0,
+      "overall_score": 23.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_devops_k8s_vague_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0119",
+    "prompt": "Write a bash pre-commit hook script that runs flake8 and black --check on staged Python files and prevents commit if linting fails.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 85.0,
+      "completeness": 80.0,
+      "overall_score": 85.0
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_devops_hook_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  },
+  {
+    "example_id": "PFE-0120",
+    "prompt": "Write a systemd service unit file for a Python web application running under Gunicorn at /var/www/app with automatic restart on failure.",
+    "task_category": "devops",
+    "components_present": [
+      "objective",
+      "target_technology",
+      "functional_requirements",
+      "constraints"
+    ],
+    "missing_information": [
+      "context",
+      "inputs",
+      "expected_outputs",
+      "security_requirements",
+      "testing_requirements",
+      "acceptance_criteria"
+    ],
+    "ambiguity_labels": [],
+    "reference_quality": {
+      "clarity": 90.0,
+      "context": 75.0,
+      "specificity": 90.0,
+      "constraints": 85.0,
+      "output_definition": 80.0,
+      "completeness": 80.0,
+      "overall_score": 84.5
+    },
+    "metadata": {
+      "source": "curated_seed",
+      "split": "test",
+      "is_synthetic": false,
+      "group_id": "grp_devops_sysd_01",
+      "created_at": "2026-10-09T00:00:00Z"
+    }
+  }
+]
